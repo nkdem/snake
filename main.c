@@ -17,7 +17,7 @@ typedef struct Snake {
   int size;
   Vector2 speed;
   Color color;
-  Vector2 body[10];
+  Vector2 body[MAX_SNAKE_SIZE];
 } Snake;
 
 void upgradeSnake(Snake *snake) {
